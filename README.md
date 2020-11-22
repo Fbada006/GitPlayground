@@ -8,5 +8,11 @@ Nothing to see here. Just playing around with git
    --stat to get more details of files changed in each commit
    --patch for the full diff fo each file for each commit
    
-2. git rn <filename>
-    -Tell git to stop tracking a file   
+2. git rm <a fully qualified filename>
+    -Tell git to delete the file
+
+3. git rm --cached <a fully qualified filename>
+    -Tell git to stop tracking the file but not delete it
+
+4. git mv oldName newName
+    -Rename a file with git      
